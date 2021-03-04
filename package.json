@@ -1,0 +1,59 @@
+{
+  "name": "@axolo/egg-wechat-mp",
+  "version": "0.0.1",
+  "description": "@axolo/node-wechat-mp  plugin for Egg.js.",
+  "eggPlugin": {
+    "name": "wechatMp"
+  },
+  "keywords": [
+    "egg",
+    "eggPlugin",
+    "egg-plugin",
+    "wechat",
+    "miniprogram",
+    "mp"
+  ],
+  "dependencies": {
+    "@axolo/node-wechat-mp": "^0.0.1"
+  },
+  "devDependencies": {
+    "autod": "^3.1.1",
+    "autod-egg": "^1.1.0",
+    "egg": "^2.29.3",
+    "egg-bin": "^4.15.0",
+    "egg-ci": "^1.18.0",
+    "egg-mock": "^4.0.1",
+    "eslint": "^7.21.0",
+    "eslint-config-egg": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && egg-bin pkgfiles && npm run test-local",
+    "test-local": "egg-bin test",
+    "cov": "egg-bin cov",
+    "lint": "eslint .",
+    "ci": "egg-bin pkgfiles --check && npm run lint && npm run cov",
+    "pkgfiles": "egg-bin pkgfiles",
+    "autod": "autod"
+  },
+  "files": [
+    "config",
+    "app.js",
+    "lib"
+  ],
+  "ci": {
+    "version": "8, 10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axolo/egg-wechat-mp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/axolo/egg-wechat-mp/issues"
+  },
+  "homepage": "https://github.com/axolo/egg-wechat-mp#readme",
+  "author": "Yueming Fang",
+  "license": "MIT"
+}
