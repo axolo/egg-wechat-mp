@@ -1,7 +1,7 @@
 {
   "name": "@axolo/egg-wechat-mp",
   "version": "0.0.1",
-  "description": "@axolo/node-wechat-mp  plugin for Egg.js.",
+  "description": "@axolo/node-wechat-mp plugin for Egg.js.",
   "eggPlugin": {
     "name": "wechatMp"
   },
