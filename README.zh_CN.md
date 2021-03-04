@@ -41,7 +41,7 @@ exports.wechatMp = {
 
 const Controller = require('egg').Controller;
 
-class WechatController extends Controller {
+class WechatMpController extends Controller {
   async create() {
     const { app, ctx } = this;
     ctx.validate({ jsCode: 'string' });
@@ -52,7 +52,7 @@ class WechatController extends Controller {
   }
 }
 
-module.exports = WechatController;
+module.exports = WechatMpController;
 ```
 
 ## 提问交流
