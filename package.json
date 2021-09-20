@@ -1,6 +1,6 @@
 {
   "name": "@axolo/egg-wechat-mp",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "@axolo/node-wechat-mp plugin for Egg.js.",
   "eggPlugin": {
     "name": "wechatMp"
@@ -14,7 +14,7 @@
     "mp"
   ],
   "dependencies": {
-    "@axolo/node-wechat-mp": "^0.0.3"
+    "@axolo/node-wechat-mp": "^0.0.4"
   },
   "devDependencies": {
     "autod": "^3.1.1",
